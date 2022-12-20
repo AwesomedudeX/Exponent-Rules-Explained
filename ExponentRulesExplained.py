@@ -3,7 +3,7 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-sect = st.sidebar.selectbox("Navigate:", ("The Basics", "Fixed Rules", "Finding Products or Quotients of Powers", "Raising a Product, Quotient or a Power to a Power"))
+sect = st.sidebar.selectbox("Navigate:", ("The Basics", "Fixed Rules", "Finding Products or Quotients of Powers With Like Bases", "Raising a Product, Quotient or a Power to a Power"))
 
 st.markdown(f'<h1 style="color:#FF0000;font-size:40px;">{sect}</h1>', unsafe_allow_html=True)
 
@@ -32,7 +32,7 @@ if sect == "Finding Products or Quotients of Powers With Like Bases":
 	st.write("When you have 2 exponential values with the same base, and you want to find out their product, all you have to do is one thing; add. When you have 2 exponential values with the same base in the same multiplication expression, it's like multiplying a number by itself a certain amount of times, and multiplying that by the same number, with the second number also being multiplied by itself a certain amount of times. Since you're just multiplying the same number over and over again, you can just add the exponents and keep the base the same; when you have $2^2+2^5$, you can just add the exponents (2 and 5), which would give you your final answer; $2^7$.")
 
 	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">Finding Quotients of a Power With Like Base</h2>', unsafe_allow_html=True)
-	st.write("Just")
+	st.write("Just as we discussed finding quotients of a power in the previous section, here, we'll discuss the inverse of that; finding quotients of powers with the same bases. Doing this is quite simple. All you need to do, is just take the exponent of the second power, and subtract it from the exponent of the first power. Whether it's positive, negative or 0 (see \"Fixed Rules\"), you just simply subtract, and whatever the resulting power is would be your answer. For example, if you take $4^2/4^5$, then you'd just have to subtract the 5 from the 2, which would give you -3. This would leave you with a result of $4^{(-3)}$, or 1/64.")
 
 if sect == "Raising a Product, Quotient or a Power to a Power":
 
