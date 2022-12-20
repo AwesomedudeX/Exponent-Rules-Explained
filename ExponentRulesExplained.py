@@ -9,5 +9,5 @@ st.markdown(f'<h1 style="color:#FF0000;font-size:40px;">{sect}</h1>', unsafe_all
 
 if sect == "The Basics":
 
-	st.markdown(f'<h2 style="color:#FFFF00;font-size:25px;">What is a Base?</h2>', unsafe_allow_html=True)
+	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">What is a Base?</h2>', unsafe_allow_html=True)
 	st.write("A ")
