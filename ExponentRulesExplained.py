@@ -37,7 +37,7 @@ if sect == "Finding Products or Quotients of Powers With Like Bases":
 if sect == "Raising a Product, Quotient or a Power to a Power":
 
 	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">Raising a Product or a Quotient to a Power</h2>', unsafe_allow_html=True)
-	st.write("Raising a product or a quotient to a power might seem hard at first, but it's easy once you get the hang of it. Here's what it will look like: if you have an expression like $(4*2)^3$, all you do is multiply the numbers inside the brackets, and then find the power of that product. In this case, the product is 8, so our result would be $8^3$, which is 512.")
+	st.write("Raising a product or a quotient to a power might seem hard at first, but it's easy once you get the hang of it. Here's what it will look like: if you have an expression like $(4*2)^3$, all you do is multiply the numbers inside the brackets, and then find the power of that product. Another thing you could do (but it might not be too convenient), is find the power of that exponent (in this case, 3) for each factor, and multiply their powers together. This works because you're already multiplying the 2 numbers together, so if you just find the powers individually, it will result in the same answer as what you'd get if you just multiplied the factors together and found the power of that number. In this case, the product is 8, so our result would be $8^3$, which is 512. The same would go for finding powers of quotients, but with division")
 		
 	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">Raising a Power to Another Power</h2>', unsafe_allow_html=True)
 	st.write("")
