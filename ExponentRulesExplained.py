@@ -3,6 +3,8 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
+st.write("Note: This site was made for a school project; this was not a paid project. However, the information on this page can be trusted, and taken seriously, though verification may still be a good idea.")
+
 sect = st.sidebar.selectbox("Navigate:", ("The Basics", "Fixed Rules", "Finding Products or Quotients of Powers With Like Bases", "Raising a Product, Quotient or a Power to a Power"))
 
 st.markdown(f'<h1 style="color:#FF0000;font-size:40px;">{sect}</h1>', unsafe_allow_html=True)
@@ -37,7 +39,7 @@ if sect == "Finding Products or Quotients of Powers With Like Bases":
 if sect == "Raising a Product, Quotient or a Power to a Power":
 
 	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">Raising a Product or a Quotient to a Power</h2>', unsafe_allow_html=True)
-	st.write("Raising a product or a quotient to a power might seem hard at first, but it's easy once you get the hang of it. Here's what it will look like: if you have an expression like $(4*2)^3$, all you do is multiply the numbers inside the brackets, and then find the power of that product. Another thing you could do (but it might not be too convenient), is find the power of that exponent (in this case, 3) for each factor, and multiply their powers together. This works because you're already multiplying the 2 numbers together, so even if you multiply the separate powers of the factors, you will still get the same product as what you'd get if you just multiplied the factors together and found the power of that number. In this case, the product is 8, so our result would be $8^3$, which is 512. The same would go for finding powers of quotients, but with division")
+	st.write("Raising a product or a quotient to a power might seem hard at first, but it's easy once you get the hang of it. Here's what it will look like: if you have an expression like $(4*2)^3$, all you do is multiply the numbers inside the brackets, and then find the power of that product. Another thing you could do (but it might not be too convenient), is find the power of that exponent (in this case, 3) for each factor, and multiply their powers together. This works because you're already multiplying the 2 numbers together, so even if you multiply the separate powers of the factors, you will still get the same product as what you'd get if you just multiplied the factors together and found the power of their product. In this case, the product is 8, so our result would be $8^3$, which equals 512. The same would go for finding powers of quotients, but with division. Let's say you had $(3/4)^2$. In this case, you'd first do 3/4, which is 0.75, and then square that to get 0.5625 as your final result. You can also use the powers separately between the divisor and the dividend, but that, again, costs some unnecessary extra effort to do. If you have access to a calculator, just find the product or quotient, depending on the situation, and then find the power of your result to get your answer.")
 		
 	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">Raising a Power to Another Power</h2>', unsafe_allow_html=True)
-	st.write("")
+	st.write("To raise a power to another power, you would just multiply both powers.")
