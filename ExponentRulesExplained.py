@@ -29,7 +29,7 @@ if sect == "Fixed Rules":
 if sect == "Finding Products or Quotients of Powers":
 
 	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">Finding Products of a Power</h2>', unsafe_allow_html=True)
-	st.write("")
+	st.write("When you have 2 exponential values with the same base, and you want to find out their product, all you have to do is one thing; add. When you have 2 exponential values with the same base in the same multiplication expression, it's like multiplying a number by itself a certain amount of times, and multiplying that by the same number, with the second number also being multiplied by itself a certain amount of times. Since you're just multiplying the same number over and over again, you can just add the exponents and keep the base the same; when you have $2^2+2^5$, you can just add the exponents (2 and 5), which would give you your final answer; $2^7$.")
 
 	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">Finding Quotients of a Power</h2>', unsafe_allow_html=True)
 	st.write("")
