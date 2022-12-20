@@ -3,9 +3,9 @@ import warnings
 
 warnings.filterwarnings("ignore")
 
-st.sidebar.write("Note: This site was made for a school project; this was not a paid project. However, the information on this page can be trusted, and taken seriously, though verification may still be a good idea.")
-
 sect = st.sidebar.selectbox("Navigate:", ("The Basics", "Fixed Rules", "Finding Products or Quotients of Powers With Like Bases", "Raising a Product, Quotient or a Power to a Power"))
+
+st.sidebar.write("Note: This site was made for a school project; this was not a paid project. However, the information on this page can be trusted, and taken seriously, though verification may still be a good idea.")
 
 st.markdown(f'<h1 style="color:#FF0000;font-size:40px;">{sect}</h1>', unsafe_allow_html=True)
 
