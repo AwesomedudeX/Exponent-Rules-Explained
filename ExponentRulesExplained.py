@@ -8,7 +8,7 @@ sect = st.sidebar.selectbox("Navigate:", ("The Basics", "Fixed Rules", "Finding 
 st.sidebar.write("Note: This site was made for a school project; this was not a paid project. However, the information on this page can be trusted, though verification may still be a good idea.")
 
 st.markdown(f'<h1 style="color:#0099FF;font-size:50px;">Exponent Rules</h1>', unsafe_allow_html=True)
-st.markdown(f'<h1 style="color:#FF0000;font-size:40px;">{sect}</h1>', unsafe_allow_html=True)
+st.markdown(f'<h1 style="color:#FF0000;font-size:35px;">{sect}</h1>', unsafe_allow_html=True)
 
 if sect == "The Basics":
 
