@@ -26,13 +26,13 @@ if sect == "Fixed Rules":
 	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">Negative Exponents</h2>', unsafe_allow_html=True)
 	st.write("A negative exponent can only be described as a fraction of a power of the base. Think of it like this: when you increase the power of a number by 1, the result will multiply by the base. The reverse would be to divide by the base, so $3^1$ is 3 (see \"Exponent of 1\"), and $3^0$ is 1 (see \"Exponent of 0\"), which would mean $3^{-1}$ is 1/3 of that; 3^{-1}} is 1/3. This would mean that $3^{-2}$ would be 1/9, and $3^{-3}$ would be 1/27. At this point, you can hopefully see the pattern here. The negative powers of a number are just 1 over the positive of that power; $2^{(-5)}$ = $1/2^{5}$. Whenever a number has a negative power attached to it, the result is 1 over whatever the result would be if the exponent was positive.")
 
-if sect == "Finding Products or Quotients of Powers":
+if sect == "Finding Products or Quotients of Powers With Like Bases":
 
-	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">Finding Products of a Power</h2>', unsafe_allow_html=True)
+	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">Finding Products of a Power With Like Bases</h2>', unsafe_allow_html=True)
 	st.write("When you have 2 exponential values with the same base, and you want to find out their product, all you have to do is one thing; add. When you have 2 exponential values with the same base in the same multiplication expression, it's like multiplying a number by itself a certain amount of times, and multiplying that by the same number, with the second number also being multiplied by itself a certain amount of times. Since you're just multiplying the same number over and over again, you can just add the exponents and keep the base the same; when you have $2^2+2^5$, you can just add the exponents (2 and 5), which would give you your final answer; $2^7$.")
 
-	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">Finding Quotients of a Power</h2>', unsafe_allow_html=True)
-	st.write("")
+	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">Finding Quotients of a Power With Like Base</h2>', unsafe_allow_html=True)
+	st.write("Just as we discussed finding quotients of a power in the previous section, here, we'll discuss the inverse of that; finding quotients of powers with the same bases. Doing this is quite simple. All you need to do, is just take the exponent of the second power, and subtract it from the exponent of the first power. Whether it's positive, negative or 0 (see \"Fixed Rules\"), you just simply subtract, and whatever the resulting power is would be your answer. For example, if you take $4^2/4^5$, then you'd just have to subtract the 5 from the 2, which would give you -3. This would leave you with a result of $4^{(-3)}$, or 1/64.")
 
 if sect == "Raising a Product, Quotient or a Power to a Power":
 
