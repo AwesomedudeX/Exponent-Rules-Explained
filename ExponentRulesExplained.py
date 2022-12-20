@@ -18,7 +18,7 @@ if sect == "The Basics":
 if sect == "Fixed Rules":
 
 	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">Exponent of 1</h2>', unsafe_allow_html=True)
-	st.write("")
+	st.write("Having an exponent of 1 is really simple. Just as you'd multiply 3 by itself twice (${3*3}$) if you had ${3^2}$, you'd just take 3 on its own if you had ${3^1}$. In other words, any number raised to the power of 1 is equal to that base. Every number has this property, no matter what it is, and even if it's not shown, every number technically has this property; it just seems really unnecessary to put it down because it's a waste of space. The only times you'd ever put this exponent down would be to show your reasoning. Otherwise, in practical math, this exponent has no use whatsoever.")
 
 	st.markdown(f'<h2 style="color:#FFAA00;font-size:25px;">Exponent of 0</h2>', unsafe_allow_html=True)
 	st.write("")
